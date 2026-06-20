@@ -1,1 +1,143 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Untuk Kamu 💗</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="particles"></canvas>
+
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <section class="opening" id="opening">
+    <div class="opening-card">
+      <div class="heart-icon">💌</div>
+      <p class="mini">ada pesan kecil buat kamu...</p>
+      <h1>Hai, <span class="nama-pacar">Sayang</span> 💗</h1>
+      <p class="opening-text">
+        Aku bikin halaman kecil ini pelan-pelan. Bukan yang paling sempurna,
+        tapi dibuat khusus biar kamu senyum.
+      </p>
+      <button id="openBtn">Buka yaa ✨</button>
+    </div>
+  </section>
+
+  <main id="content" class="content hidden">
+    <section class="hero">
+      <div class="hero-text reveal">
+        <p class="pill">for my favorite person</p>
+        <h2>
+          Untuk kamu,<br />
+          orang yang bikin hariku <span>lebih manis</span>.
+        </h2>
+        <p class="typing">
+          <span id="typingText"></span><span class="cursor">|</span>
+        </p>
+        <div class="buttons">
+          <a href="#surat" class="btn pink">Baca suratnya 💌</a>
+          <button class="btn white" id="kangenBtn">Klik kalau kangen 🥺</button>
+        </div>
+      </div>
+
+      <div class="cute-phone reveal">
+        <div class="phone-line"></div>
+        <div class="love-circle">💗</div>
+        <h3>Aku & Kamu</h3>
+        <p>dua manusia lucu yang semoga bahagia terus.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title reveal">
+        <p class="pill">kenapa kamu?</p>
+        <h2>Hal kecil yang aku suka dari kamu</h2>
+      </div>
+
+      <div class="grid">
+        <article class="card reveal">
+          <span>01</span>
+          <h3>Senyummu</h3>
+          <p>Senyum kamu tuh sederhana, tapi efeknya bisa bikin hari aku langsung membaik.</p>
+        </article>
+
+        <article class="card reveal">
+          <span>02</span>
+          <h3>Caramu hadir</h3>
+          <p>Kadang kamu nggak perlu ngapa-ngapain. Ada kamu aja rasanya udah tenang.</p>
+        </article>
+
+        <article class="card reveal">
+          <span>03</span>
+          <h3>Lucunya kamu</h3>
+          <p>Ada aja tingkah kamu yang bikin aku gemas dan senyum sendiri.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="reminder reveal">
+        <p class="pill">little reminder</p>
+        <h2>Kalau kamu lagi capek...</h2>
+        <p>
+          Kamu nggak harus kuat setiap waktu. Kamu boleh istirahat,
+          boleh cerita, boleh manja. Aku tetap di sini, pelan-pelan nemenin kamu.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title reveal">
+        <p class="pill">our tiny gallery</p>
+        <h2>Tempat foto kita nanti</h2>
+        <p class="note">Nanti kotak ini bisa kamu ganti jadi foto kalian.</p>
+      </div>
+
+      <div class="gallery">
+        <div class="polaroid reveal">
+          <div class="photo">📷</div>
+          <p>foto lucu kita</p>
+        </div>
+        <div class="polaroid reveal">
+          <div class="photo">🌷</div>
+          <p>momen favorit</p>
+        </div>
+        <div class="polaroid reveal">
+          <div class="photo">✨</div>
+          <p>random tapi manis</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section letter" id="surat">
+      <div class="letter-card reveal">
+        <div class="mail">💌</div>
+        <p class="pill">surat kecil</p>
+        <h2>Buat kamu...</h2>
+        <p>
+          Terima kasih ya sudah hadir di hidup aku. Mungkin aku belum selalu
+          pandai merangkai kata, tapi aku benar-benar bersyukur punya kamu.
+          Semoga halaman kecil ini jadi pengingat bahwa kamu disayang,
+          dihargai, dan punya tempat spesial di hati aku.
+        </p>
+        <button id="surpriseBtn">Pencet ini sekali lagi 💞</button>
+        <p class="surprise" id="surpriseText">
+          Aku sayang kamu lebih dari yang bisa web kecil ini tulis.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>Dibuat dengan hati oleh <b id="namaKamuFooter">Aku</b> untuk <b class="nama-pacar">Sayang</b> 💗</p>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast">peluk virtual terkirim 🤗💗</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
