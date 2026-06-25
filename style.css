@@ -270,16 +270,23 @@ body {
 }
 
 .love-circle {
-  width: 172px;
-  height: 172px;
-  display: grid;
-  place-items: center;
-  margin: 0 auto 24px;
-  border-radius: 50%;
-  font-size: 5rem;
-  background: linear-gradient(135deg, #fff, #ffe0ef);
-  box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.45);
-  animation: heartbeat 1.4s ease-in-out infinite;
+    width: 172px;
+    height: 172px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 24px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #fff, #ffe0ef);
+    box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.45);
+    animation: heartbeat 1.4s ease-in-out infinite;
+    overflow: hidden;
+}
+
+.love-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .cute-phone h3 {
