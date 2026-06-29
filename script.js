@@ -1,6 +1,6 @@
 
 // ====== BAGIAN YANG BOLEH KAMU GANTI ======
-const namaPacar = "Bibub :3";
+const namaPacar = "Sunday";
 const namaKamu = "Drew";
 
 const kataKetik = [
