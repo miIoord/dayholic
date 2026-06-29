@@ -37,12 +37,6 @@ openBtn.addEventListener("click", () => {
   burstHearts(window.innerWidth / 2, window.innerHeight / 2, 18);
 });
 
-    document.body.style.overflow = "";
-  }, 760);
-
-  burstHearts(window.innerWidth / 2, window.innerHeight / 2, 18);
-});
-
 const typingText = document.getElementById("typingText");
 let wordIndex = 0;
 let charIndex = 0;
