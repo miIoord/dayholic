@@ -181,7 +181,16 @@ body {
 }
 
 .content.hidden {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.content {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity .4s ease;
 }
 
 .hero {
