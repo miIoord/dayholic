@@ -22,11 +22,26 @@ const content = document.getElementById("content");
 const openBtn = document.getElementById("openBtn");
 
 openBtn.addEventListener("click", () => {
+  // simpan posisi scroll sekarang
+  const scrollPos = window.scrollY;
+
   opening.classList.add("hide");
   content.classList.remove("hidden");
 
+  // cegah Safari loncat ke bawah
+  document.body.style.overflow = "hidden";
+
   setTimeout(() => {
     opening.style.display = "none";
+
+    // balikin scroll ke paling atas
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant"
+    });
+
+    document.body.style.overflow = "";
   }, 760);
 
   burstHearts(window.innerWidth / 2, window.innerHeight / 2, 18);
