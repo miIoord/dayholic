@@ -436,11 +436,15 @@ footer {
   position: fixed;
   left: 50%;
   bottom: calc(24px + env(safe-area-inset-bottom));
-
   z-index: 9999;
 
-  transform: translateX(-50%) translateY(120%);
-  transition: transform .35s ease;
+  opacity: 0;
+  pointer-events: none;
+
+  transform: translateX(-50%);
+  transition:
+    opacity .3s ease,
+    bottom .3s ease;
 
   padding: 13px 18px;
   border-radius: 999px;
@@ -450,8 +454,9 @@ footer {
   box-shadow: 0 16px 34px rgba(255,63,143,.32);
 }
 
-.toast.show{
-  transform: translateX(-50%) translateY(0);
+.toast.show {
+  opacity: 1;
+  bottom: calc(48px + env(safe-area-inset-bottom));
 }
 
 .reveal {
