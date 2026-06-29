@@ -1,12 +1,12 @@
 
 // ====== BAGIAN YANG BOLEH KAMU GANTI ======
-const namaPacar = "Sayang";
-const namaKamu = "Aku";
+const namaPacar = "Bibub :3";
+const namaKamu = "Drew";
 
 const kataKetik = [
   "aku cuma mau bilang: kamu itu spesial.",
   "semoga kamu senyum waktu buka ini.",
-  "jangan lupa, kamu disayang banyak-banyak.",
+  "jangan lupa, aku bakal selalu sayang kamu.",
   "web kecil ini khusus buat kamu."
 ];
 // ==========================================
